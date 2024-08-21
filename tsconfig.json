@@ -1,0 +1,62 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "CommonJS Library",
+    "compileOnSave": false,
+    "compilerOptions": {
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "esnext",
+        "target": "esnext",
+        "lib": [
+            "esnext",
+            "dom",
+            "dom.iterable"
+        ],
+        "removeComments": false, 
+        "allowSyntheticDefaultImports": true,
+        "jsx": "react",
+        "allowJs": true,
+        "baseUrl": "./src",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "moduleResolution": "node",
+        "downlevelIteration": true,
+        "paths": {
+            "assets/*": [
+                "./assets/*"
+            ],
+            "*": [
+                "./*"
+            ]
+        },
+        "checkJs": false,
+        "declaration": false,
+        "emitDecoratorMetadata": false,
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+        "keyofStringsOnly": false,
+        "newLine": "LF",
+        "noUnusedLocals": false,
+        "noUnusedParameters": true,
+        "outDir": "./build",
+        "preserveConstEnums": true,
+        "pretty": true,
+        "strict": true,
+        "strictNullChecks": true,
+        "skipLibCheck": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "ignoreDeprecations": "5.0"
+    },
+    "include": [
+        "./node_modules/@types/**/*",
+        "./typings/**/*",
+        "./src/**/*"
+    ],
+    "exclude": [
+      "./build",
+      "./config",
+      "./.storybook",
+      "node_modules"
+    ]
+  }
+  
