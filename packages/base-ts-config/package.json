@@ -1,0 +1,6 @@
+{
+  "name": "base-ts-config",
+  "version": "1.0.6",
+  "description": "base tsconfig temp packages",
+  "files": ["*.json"]
+}

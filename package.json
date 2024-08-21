@@ -3,7 +3,7 @@
   "description": "temp packages",
   "version": "1.0.6",
   "license": "MIT",
-  "workspaces": [ "packages/*" ],
+  "workspaces": [ "./packages/*" ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ESarkisova/temp-packages.git"
