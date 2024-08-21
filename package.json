@@ -1,0 +1,18 @@
+{
+  "name": "temp-packages",
+  "version": "1.0.0",
+  "description": "temp packages",
+  "license": "MIT",
+  "files": ["*.json"],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ESarkisova/temp-packages.git"
+  },  
+  "author": {
+    "name": "es",
+    "email": "s_elena-@bk.ru"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
