@@ -16,7 +16,6 @@
         "allowSyntheticDefaultImports": true,
         "jsx": "react",
         "allowJs": true,
-        "baseUrl": "./src",
         "esModuleInterop": true,
         "resolveJsonModule": true,
         "moduleResolution": "node",
@@ -38,7 +37,7 @@
         "newLine": "LF",
         "noUnusedLocals": false,
         "noUnusedParameters": true,
-        "outDir": "./build",
+        "outDir": "./dist",
         "preserveConstEnums": true,
         "pretty": true,
         "strict": true,
@@ -47,16 +46,5 @@
         "suppressImplicitAnyIndexErrors": true,
         "ignoreDeprecations": "5.0"
     },
-    "include": [
-        "./node_modules/@types/**/*",
-        "./typings/**/*",
-        "./src/**/*"
-    ],
-    "exclude": [
-      "./build",
-      "./config",
-      "./.storybook",
-      "node_modules"
-    ]
   }
   
