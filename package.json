@@ -1,9 +1,10 @@
 {
-  "name": "@esarkisova/temp-packages",
-  "version": "1.0.3",
+  "name": "esarkisova",
   "description": "temp packages",
   "license": "MIT",
-  "files": ["*.json"],
+  "dependencies": {
+    "a": "^1.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ESarkisova/temp-packages.git"
