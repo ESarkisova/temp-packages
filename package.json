@@ -1,19 +1,11 @@
 {
-  "name": "@esarkisova/temp-packages",
+  "name": "@esarkisova/libs",
   "description": "temp packages",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "license": "MIT",
   "workspaces": [ "./packages/*" ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ESarkisova/temp-packages.git"
-  },  
-  "author": {
-    "name": "es",
-    "email": "s_elena-@bk.ru"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com/@esarkisova"
   }
 }
