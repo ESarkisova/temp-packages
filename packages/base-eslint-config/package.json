@@ -1,11 +1,16 @@
 {
   "name": "@esarkisova/libs.eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.19",
   "description": "base eslint temp packages",
-  "files": [
-    "*.json"
-  ],
-  "dependencies": {
+  "license": "ISC",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "scripts": {
+    "release": "yarn version"
+  },
+  "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "6.13.1",
     "@typescript-eslint/parser": "6.13.1",
     "eslint": "8.54.0",
@@ -16,14 +21,6 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-simple-import-sort": "10.0.0",
     "eslint-webpack-plugin": "4.0.1",
-    "prettier": "3.1.0"   
-  },
-  "author": {
-    "name": "es",
-    "email": "s_elena-@bk.ru"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com/@esarkisova"
+    "prettier": "3.3.3"
   }
 }
