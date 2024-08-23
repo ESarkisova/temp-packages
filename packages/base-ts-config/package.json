@@ -1,14 +1,11 @@
 {
-  "name": "@esarkisova/libs..base-ts-config",
-  "version": "1.0.8",
+  "name": "@esarkisova/libs.base-ts-config",
+  "version": "1.0.12",
+  "license": "ISC",
   "description": "base tsconfig temp packages",
-  "files": ["*.json"],  
-  "author": {
-    "name": "es",
-    "email": "s_elena-@bk.ru"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com/@esarkisova"
+  "files": ["*.json"],
+  
+  "scripts": {
+    "release": "yarn version"
   }
 }

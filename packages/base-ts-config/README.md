@@ -1,0 +1,2 @@
+# base tsconfig
+base tsconfig

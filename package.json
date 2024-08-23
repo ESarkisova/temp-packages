@@ -1,11 +1,19 @@
 {
-  "name": "@esarkisova/libs",
   "description": "temp packages",
-  "version": "1.0.8",
-  "license": "MIT",
+  "license": "ISC",
   "workspaces": [ "./packages/*" ],
+  "private": true,
+  "scripts": {
+    "version": "yarn run create:refbuildInfo && yarn run update:buildHistory && git add .",
+    "changelog": "conventional-changelog -p convetioncommit -i CHANGELOG.md -o CHANGELOG.md -a -s -r 0",
+    "publish": "npm publish --workspaces"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ESarkisova/temp-packages.git"
+  },
+  "author": "",
+  "publishConfig": {
+    "access": "restricted"
   }
 }

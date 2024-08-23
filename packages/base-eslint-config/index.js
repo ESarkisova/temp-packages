@@ -1,3 +1,5 @@
+const isDev = process.env.NODE_ENV === "development";
+
 module.exports = {
     parser: "@typescript-eslint/parser",
     plugins: ["@typescript-eslint", "react", "react-hooks", "eslint-plugin-import", "prettier", "simple-import-sort"],
@@ -6,7 +8,6 @@ module.exports = {
     },
     extends: ["plugin:@typescript-eslint/recommended", "plugin:react/recommended", "plugin:prettier/recommended"],
     parserOptions: {
-        project: ["tsconfig.json"],
         tsconfigRootDir: __dirname,
         ecmaVersion: 2020,
         sourceType: "module",
